@@ -1,3 +1,13 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
 /*HEADER*/
 
 .menu{
@@ -223,6 +233,18 @@ p:first-child{
 }
 
 
+.nav-colorfondo .nav-link {
+    color: white !important;
+}
+
+
+.nav-colorfondo .nav-link.active {
+    color: white !important;
+}
+
+.nav-colorfondo .nav-link.disabled {
+    color: rgba(30, 110, 63, 0.5) 
+}
 
 
 
