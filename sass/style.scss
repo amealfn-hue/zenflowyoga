@@ -1,0 +1,96 @@
+$green-primary: #769335; // El verde del logo
+$text-gray: #666;
+$bg-light: #f8f9f5;      // El fondo sutilmente verdoso/crema
+$border-color: #e2e8d8;
+$social-bg: #e9f0e1;
+
+.main-footer {
+    background-color: $bg-light;
+    padding: 60px 20px 30px;
+    font-family: 'Gill Sans', sans-serif; // Usando la que ya tenías
+    color: $text-gray;
+
+    .footer-top {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 0 auto;
+        gap: 30px;
+    }
+
+    .footer-col {
+        flex: 1;
+        min-width: 200px;
+
+        h3 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            
+            li {
+                margin-bottom: 12px;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                
+                a {
+                    text-decoration: none;
+                    color: $text-gray;
+                    transition: color 0.3s;
+                    &:hover { color: $green-primary; }
+                }
+            }
+        }
+
+        &.brand {
+            .logo {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                margin-bottom: 15px;
+                h2 { color: $green-primary; margin: 0; }
+                img { width: 40px; border-radius: 50%; }
+            }
+            p { line-height: 1.6; max-width: 250px; }
+        }
+    }
+
+    .social-icons {
+        display: flex;
+        gap: 15px;
+
+        .social-btn {
+            width: 40px;
+            height: 40px;
+            background-color: $social-bg;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $green-primary;
+            text-decoration: none;
+            transition: transform 0.3s, background 0.3s;
+
+            &:hover {
+                transform: translateY(-3px);
+                background-color: $green-primary;
+                color: white;
+            }
+        }
+    }
+
+    .footer-bottom {
+        margin-top: 50px;
+        padding-top: 20px;
+        border-top: 1px solid $border-color;
+        text-align: center;
+        font-size: 0.9rem;
+        color: #888;
+    }
+}
