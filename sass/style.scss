@@ -1,13 +1,276 @@
-$green-primary: #769335; // El verde del logo
+$green-primary: #769335; 
 $text-gray: #666;
-$bg-light: #f8f9f5;      // El fondo sutilmente verdoso/crema
+$bg-light: #f8f9f5;     
 $border-color: #e2e8d8;
 $social-bg: #e9f0e1;
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+/*HEADER*/
+
+.menu{
+
+
+    background-color: white;
+    color: olive;
+    border: #6B8E23;
+    width: 350px;
+    height: 30px;
+    padding: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+ }
+
+h1{
+
+    color:#6B8E23; 
+    background-color: #f4f2f2;
+    text-align: center;
+    font-size: 20px;
+    font-family: Calibri;
+    
+
+}
+
+
+.logo{
+
+    color:#6B8E23; 
+    background-color: #f4f2f2;
+    text-align: center;
+    font-size: 20px;
+    font-family: Calibri;
+    font-weight: bolder;
+    height: 40px;
+    padding-top: 10px;
+    
+
+}
+
+h2{
+
+    color: #6B8E23;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.titulo2home{
+
+    color: #6B8E23;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+
+/*Principal*/
+.texto-uno{
+
+    color:rgb(26, 29, 29);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 30px;
+}
+
+.texto-tres{
+
+    color: rgb(26, 29, 29);
+    margin-left: 10px;
+}
+
+.texto-dos{
+    
+    color: rgb(26, 29, 29);
+    margin-left: 10px;
+
+
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 250px);
+    gap: 10px;
+    padding: 10px;
+   
+ 
+}
+
+.card {
+    background-color: rgb(221, 224, 231);
+    color: rgb(29, 59, 23);
+    font-family: Calibri;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    height: 215px; /* un poco más alto que ancho */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+   
+}
+
+.card a {
+    text-decoration: none;
+    background-color: #6B8E23;
+    color: azure;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.card a:hover {
+    text-decoration: none;
+    background-color: azure;
+    color: #6B8E23;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 12px;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.texto-resal-verde{
+
+    color: rgb(52, 120, 108);
+    font-weight: bold;
+}
+
+
+  /* bordes redondeados imágenes */
+
+img {
+
+    border-radius: 10px;
+    margin-left: 20px; 
+    width: 360px;
+
+    
+}
+
+
+/*BEFORE*/
+
+.Autenticidad::before{
+
+    content: "✨";
+
+}
+
+
+.Comunidad::before{
+
+    content: "🤝";
+
+}
+
+
+.Transformación::before{
+
+    content: "🧡";
+
+}
+
+
+/*SELECTION*/
+
+::selection{
+
+    background-color: #6B8E23;
+    color: #f4f2f2;
+
+}
+
+
+/*first child*/
+
+p:first-child{
+
+    text-align: center;
+}
+
+
+/*Tienda*/
+
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+
+
+
+
+/*NavBar Tienda*/
+
+
+.nav-colorfondo{
+
+    background-color: #6B8E23;
+}
+
+.nav-colorfondo .navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.nav-colorfondo .nav-link {
+    color: #ffffff;
+}
+
+
+.nav-colorfondo .nav-link.active {
+    color: #d4f5c5;
+    font-weight: 600;
+}
+
+
+.nav-colorfondo .nav-link {
+    color: white !important;
+}
+
+
+.nav-colorfondo .nav-link.active {
+    color: white !important;
+}
+
+.nav-colorfondo .nav-link.disabled {
+    color: rgba(30, 110, 63, 0.5) 
+}
+
+
+
+.container-tienda{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 250px);
+    gap: 10px;
+    padding: 10px;
+    margin-top: 50px;
+
+}
+
+
 
 .main-footer {
     background-color: $bg-light;
     padding: 60px 20px 30px;
-    font-family: 'Gill Sans', sans-serif; // Usando la que ya tenías
+    font-family: 'Gill Sans', sans-serif; 
     color: $text-gray;
 
     .footer-top {
@@ -54,10 +317,15 @@ $social-bg: #e9f0e1;
                 align-items: center;
                 gap: 10px;
                 margin-bottom: 15px;
-                h2 { color: $green-primary; margin: 0; }
-                img { width: 40px; border-radius: 50%; }
+                 img { width: 130px; 
+                    border-radius: 50%; }
             }
-            p { line-height: 1.6; max-width: 250px; }
+
+            p { 
+                
+                line-height: 1.6; 
+                max-width: 250px;             
+            }
         }
     }
 
