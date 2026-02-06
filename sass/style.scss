@@ -241,12 +241,12 @@ p:first-child{
 
 
 .nav-colorfondo .nav-link {
-    color: white !important;
+    color: white;
 }
 
 
 .nav-colorfondo .nav-link.active {
-    color: white !important;
+    color: white;
 }
 
 .nav-colorfondo .nav-link.disabled {
@@ -386,6 +386,15 @@ p:first-child{
             margin: 15px 30px;
         }
 
+
+        .img-home {
+
+    border-radius: 10px;
+    margin-left: 20px; 
+    width: 250px;
+
+    
+}
       
 
         
