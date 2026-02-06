@@ -263,6 +263,11 @@ p:first-child{
     padding: 10px;
     margin-top: 50px;
 
+    .gradiente{
+
+        background: linear-gradient(to right, olive, rgb(163, 163, 79));
+    }
+
 }
 
 
