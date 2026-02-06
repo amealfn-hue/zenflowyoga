@@ -5,13 +5,7 @@ $border-color: #e2e8d8;
 $social-bg: #e9f0e1;
 
 
-*{
 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
 
 
 
@@ -106,6 +100,7 @@ h2{
     grid-template-columns: repeat(auto-fit, 250px);
     gap: 10px;
     padding: 10px;
+    
    
  
 }
@@ -122,6 +117,13 @@ h2{
     border-radius: 10px;
     height: 215px; /* un poco más alto que ancho */
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-top: 30px;
+
+
+      
+    
+
+  
    
 }
 
@@ -160,6 +162,7 @@ img {
     border-radius: 10px;
     margin-left: 20px; 
     width: 360px;
+    margin-left: 60px;
 
     
 }
@@ -211,6 +214,8 @@ p:first-child{
 .card-img-top {
     height: 180px;
     object-fit: cover;
+
+   
 }
 
 
@@ -401,5 +406,17 @@ p:first-child{
     
 }
       
+
+.gradiente {
+    
+    background: linear-gradient(to left, olive, rgb(215, 215, 82)) !important;
+    color: white !important; 
+    border: none !important;
+}
+
+.gradiente:hover {
+    background: linear-gradient(to right, olive, rgb(215, 215, 82)) !important;
+    color: white !important;
+}
 
         

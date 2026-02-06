@@ -1,10 +1,4 @@
 @charset "UTF-8";
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 /*HEADER*/
 .menu {
   background-color: white;
@@ -87,6 +81,7 @@ h2 {
   border-radius: 10px;
   height: 215px; /* un poco más alto que ancho */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
 }
 
 .card a {
@@ -120,6 +115,7 @@ img {
   border-radius: 10px;
   margin-left: 20px;
   width: 360px;
+  margin-left: 60px;
 }
 
 /*BEFORE*/
@@ -297,6 +293,17 @@ p:first-child {
   border-radius: 10px;
   margin-left: 20px;
   width: 250px;
+}
+
+.gradiente {
+  background: linear-gradient(to left, olive, rgb(215, 215, 82)) !important;
+  color: white !important;
+  border: none !important;
+}
+
+.gradiente:hover {
+  background: linear-gradient(to right, olive, rgb(215, 215, 82)) !important;
+  color: white !important;
 }
 
 /*# sourceMappingURL=style.css.map */
