@@ -82,6 +82,7 @@ h2 {
   height: 215px; /* un poco más alto que ancho */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-top: 30px;
+  background: linear-gradient(135deg, #f1f8e9 0%, #ffffff 100%);
 }
 
 .card a {
@@ -185,9 +186,6 @@ p:first-child {
   gap: 10px;
   padding: 10px;
   margin-top: 50px;
-}
-.container-tienda .gradiente {
-  background: linear-gradient(to right, olive, rgb(163, 163, 79));
 }
 
 .main-footer {
@@ -295,15 +293,17 @@ p:first-child {
   width: 250px;
 }
 
-.gradiente {
-  background: linear-gradient(to left, olive, rgb(215, 215, 82)) !important;
-  color: white !important;
-  border: none !important;
+.img-home {
+  border-radius: 10px;
+  width: 250px;
+  margin-left: 20px;
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
 
-.gradiente:hover {
-  background: linear-gradient(to right, olive, rgb(215, 215, 82)) !important;
-  color: white !important;
+.img-home:hover {
+  transform: rotate(2deg) scale(1.02);
+  box-shadow: 0 8px 15px rgba(107, 142, 35, 0.3);
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -118,7 +118,7 @@ h2{
     height: 215px; /* un poco más alto que ancho */
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     margin-top: 30px;
-
+    background: linear-gradient(135deg, #f1f8e9 0%, #ffffff 100%);
 
       
     
@@ -410,6 +410,8 @@ p:first-child{
     margin-left: 20px;
     
     transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    transition: all 0.6s ease-in-out; 
+    
 }
 
 .img-home:hover {
