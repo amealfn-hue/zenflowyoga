@@ -243,8 +243,10 @@ p:first-child {
   border-radius: 50%;
 }
 .main-footer .footer-col.brand p {
-  line-height: 1.6;
+  font-size: 16.5px;
+  line-height: 1.5;
   max-width: 250px;
+  text-align: center;
 }
 .main-footer .social-icons {
   display: flex;
@@ -274,6 +276,18 @@ p:first-child {
   text-align: center;
   font-size: 0.9rem;
   color: #888;
+}
+
+.texto-dos {
+  margin: 5px 30px;
+}
+
+.texto-tres {
+  margin: 5px 30px 25px;
+}
+
+.texto-uno {
+  margin: 15px 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

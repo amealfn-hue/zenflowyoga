@@ -322,9 +322,11 @@ p:first-child{
             }
 
             p { 
-                
-                line-height: 1.6; 
-                max-width: 250px;             
+                font-size: 16.5px;
+                line-height: 1.5; 
+                max-width: 250px;  
+                text-align: center;  
+                        
             }
         }
     }
@@ -362,3 +364,28 @@ p:first-child{
         color: #888;
     }
 }
+
+       
+
+
+        .texto-dos {
+
+
+            margin: 5px 30px;
+        }
+
+         .texto-tres {
+
+
+            margin: 5px 30px 25px;
+        }
+
+         .texto-uno {
+
+
+            margin: 15px 30px;
+        }
+
+      
+
+        
