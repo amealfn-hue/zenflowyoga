@@ -410,13 +410,17 @@ p:first-child{
 .gradiente {
     
     background: linear-gradient(to left, olive, rgb(215, 215, 82)) !important;
-    color: white !important; 
-    border: none !important;
+    color: white; 
+    border: none;
 }
 
 .gradiente:hover {
-    background: linear-gradient(to right, olive, rgb(215, 215, 82)) !important;
-    color: white !important;
+    background: linear-gradient(to right, olive, rgb(215, 215, 82));
+    color: white;
 }
 
+.img-home{
+
+    transition-timing-function: ease-in-out;
+}
         
