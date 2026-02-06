@@ -268,10 +268,7 @@ p:first-child{
     padding: 10px;
     margin-top: 50px;
 
-    .gradiente{
-
-        background: linear-gradient(to right, olive, rgb(163, 163, 79));
-    }
+    
 
 }
 
@@ -407,20 +404,16 @@ p:first-child{
 }
       
 
-.gradiente {
+.img-home {
+    border-radius: 10px;
+    width: 250px;
+    margin-left: 20px;
     
-    background: linear-gradient(to left, olive, rgb(215, 215, 82)) !important;
-    color: white; 
-    border: none;
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
 }
 
-.gradiente:hover {
-    background: linear-gradient(to right, olive, rgb(215, 215, 82));
-    color: white;
-}
-
-.img-home{
-
-    transition-timing-function: ease-in-out;
+.img-home:hover {
+    transform: rotate(2deg) scale(1.02);
+    box-shadow: 0 8px 15px rgba(107, 142, 35, 0.3); 
 }
         
