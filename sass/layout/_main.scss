@@ -1,0 +1,184 @@
+.texto-uno{
+
+    color:rgb(26, 29, 29);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 30px;
+}
+
+.texto-tres{
+
+    color: rgb(26, 29, 29);
+    margin-left: 10px;
+}
+
+.texto-dos{
+    
+    color: rgb(26, 29, 29);
+    margin-left: 10px;
+
+
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 250px);
+    gap: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    
+   
+ 
+}
+
+.card {
+    background-color: rgb(221, 224, 231);
+    color: rgb(29, 59, 23);
+    font-family: Calibri;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    height: 215px; /* un poco más alto que ancho */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-top: 30px;
+    background: linear-gradient(135deg, #f1f8e9 0%, #ffffff 100%);
+
+      
+    
+
+  
+   
+}
+
+.card a {
+    text-decoration: none;
+    background-color: #6B8E23;
+    color: azure;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.card a:hover {
+    text-decoration: none;
+    background-color: azure;
+    color: #6B8E23;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 12px;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.texto-resal-verde{
+
+    color: rgb(52, 120, 108);
+    font-weight: bold;
+}
+
+
+  /* bordes redondeados imágenes */
+
+img {
+
+    border-radius: 10px;
+    margin-left: 20px; 
+    width: 360px;
+    margin-left: 60px;
+
+    
+}
+
+
+/*BEFORE*/
+
+.Autenticidad::before{
+
+    content: "✨";
+
+}
+
+
+.Comunidad::before{
+
+    content: "🤝";
+
+}
+
+
+.Transformación::before{
+
+    content: "🧡";
+
+}
+
+
+
+::selection{
+
+    background-color: #6B8E23;
+    color: #f4f2f2;
+
+}
+
+
+/*first child*/
+
+p:first-child{
+
+    text-align: center;
+}
+
+
+
+        .texto-dos {
+
+
+            margin: 5px 30px;
+        }
+
+         .texto-tres {
+
+
+            margin: 5px 30px 25px;
+        }
+
+         .texto-uno {
+
+
+            margin: 15px 30px;
+        }
+
+
+        .img-home {
+
+    border-radius: 10px;
+    margin-left: 20px; 
+    width: 250px;
+
+    
+}
+      
+
+.img-home {
+    border-radius: 10px;
+    width: 250px;
+    margin-left: 20px;
+    
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+    transition: all 0.6s ease-in-out; 
+    
+}
+
+.img-home:hover {
+    transform: rotate(2deg) scale(1.02);
+    box-shadow: 0 8px 15px rgba(107, 142, 35, 0.3); 
+}
+    
+
+
+

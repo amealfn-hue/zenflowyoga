@@ -1,0 +1,93 @@
+.menu{
+
+
+    background-color: white;
+    color: olive;
+    border: #6B8E23;
+    width: 350px;
+    height: 30px;
+    padding: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+ }
+
+h1{
+
+    color:#6B8E23; 
+    background-color: #f4f2f2;
+    text-align: center;
+    font-size: 20px;
+    font-family: Calibri;
+    
+
+}
+
+
+.logo{
+
+    color:#6B8E23; 
+    background-color: #f4f2f2;
+    text-align: center;
+    font-size: 20px;
+    font-family: Calibri;
+    font-weight: bolder;
+    height: 40px;
+    padding-top: 10px;
+    
+
+}
+
+h2{
+
+    color: #6B8E23;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.titulo2home{
+
+    color: #6B8E23;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+.nav-colorfondo{
+
+    background-color: #6B8E23;
+}
+
+.nav-colorfondo .navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.nav-colorfondo .nav-link {
+    color: #ffffff;
+}
+
+
+.nav-colorfondo .nav-link.active {
+    color: #d4f5c5;
+    font-weight: 600;
+}
+
+
+.nav-colorfondo .nav-link {
+    color: white;
+}
+
+
+.nav-colorfondo .nav-link.active {
+    color: white;
+}
+
+.nav-colorfondo .nav-link.disabled {
+    color: rgba(30, 110, 63, 0.5) 
+}

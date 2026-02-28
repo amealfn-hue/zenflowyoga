@@ -1,0 +1,22 @@
+
+/*Tienda*/
+
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+
+   
+}
+
+
+
+
+.container-tienda {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 250px);
+    justify-content: center; 
+    gap: 15px; 
+    padding: 20px;
+    margin: 50px auto 0 auto; 
+    max-width: 1200px; 
+}
