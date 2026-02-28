@@ -4,7 +4,7 @@
 .card-img-top {
     height: 180px;
     object-fit: cover;
-
+    margin: 50px auto 0 auto; 
    
 }
 
@@ -12,11 +12,16 @@
 
 
 .container-tienda {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 250px);
-    justify-content: center; 
-    gap: 15px; 
-    padding: 20px;
-    margin: 50px auto 0 auto; 
-    max-width: 1200px; 
+    display: flex;              
+    justify-content: center;    
+    flex-wrap: wrap;            
+    gap: 20px;                  
+    padding: 20px;              
+}
+
+.card {
+    
+    flex: 0 1 300px;            
+    max-width: 350px;          
+    box-sizing: border-box;     
 }
