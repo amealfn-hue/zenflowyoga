@@ -5,10 +5,6 @@ $border-color: #e2e8d8;
 $social-bg: #e9f0e1;
 
 
-
-
-
-
 /*HEADER*/
 
 .menu{
@@ -261,17 +257,14 @@ p:first-child{
 
 
 
-.container-tienda{
-
+.container-tienda {
     display: grid;
     grid-template-columns: repeat(auto-fit, 250px);
-    gap: 10px;
-    padding: 10px;
-    margin-top: 50px;
-    margin: 0 auto;
-
-    
-
+    justify-content: center; 
+    gap: 15px; 
+    padding: 20px;
+    margin: 50px auto 0 auto; 
+    max-width: 1200px; 
 }
 
 
